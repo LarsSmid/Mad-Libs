@@ -5,8 +5,8 @@
 	<link rel="stylesheet" type="text/css" href="opmaak.css">
 </head>
 <body>
-<p id="title">Mad Libs</p>
-	<div id="container">
+<p id="title_2">Mad Libs</p>
+	<div id="container_2">
  	
  	<div id="header">
  		<a href="index.php">Er heerst paniek...</a>
@@ -18,9 +18,13 @@
  	<p id="php">
  	
  	<?php
- 		echo "Er zijn veel mensen die niet kunnen " . $_POST['Kunnen'] . " Neem nou " . $_POST['Maat'] . ". Zellfs met de hulp van een " . $_POST['Vakantie'] . " of zelfs " . $_POST['Getal'] . " kan " . $_POST['Maat'] . " niet " . $_POST['Kunnen'] .". Dat heeft niet te maken met een gebrek aan " . $_POST['Goede'] . ", maar met een te veel aan " . $_POST['Minder'] . ". te veel " . $_POST['Minder'] . " leidt tot " . $_POST['Overkomen'] . " en dat is niet goed als je wilt" . $_POST['Kunnen'] . ". Helaas voor " . $_POST['Maat'] . ".";
+ 		echo "Er zijn veel mensen die niet kunnen " . $_POST['Kunnen'] . ", neem nou " . $_POST['Maat'] . ". Zelfs met de hulp van een " . $_POST['Vakantie'] . " of zelfs " . $_POST['Getal'] . " kan " . $_POST['Maat'] . " niet " . $_POST['Kunnen'] .". Dat heeft niet te maken met een gebrek aan " . $_POST['Goede'] . ", maar met een te veel aan " . $_POST['Slechte'] . ". te veel " . $_POST['Slechte'] . " leidt tot " . $_POST['Overkomen'] . " en dat is niet goed als je wilt " . $_POST['Kunnen'] . ". Helaas voor " . $_POST['Maat'] . ".";
  	?>
 	</p>
+		<footer >
+		<p id="copyright">Made by Lars Smid</p>
+	</footer>
  	</div>
+
 </body>
 </html>

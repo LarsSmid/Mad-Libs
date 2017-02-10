@@ -20,8 +20,8 @@
 		$Top = $_POST["Goede"];
 	}
 
-	if (isset($_POST['Minder'])) {
-		$Min = $_POST["Minder"];
+	if (isset($_POST['Slechte'])) {
+		$Min = $_POST["Slechte"];
 	}
 
 	if (isset($_POST['Overkomen'])) {
@@ -37,7 +37,7 @@
 	<link rel="stylesheet" type="text/css" href="opmaak.css">
 </head>
 <body>
-<p id="title">Mad Libs</p>
+<p id="title_2">Mad Libs</p>
  	<div id="container">
  	<div id="header">
  		<a href="index.php">Er heerst paniek...</a>
@@ -65,7 +65,7 @@
 
 			<p class="vragen" id="vraag_5">Wat is je beste persoonlijke eigenschap?</p> 
 
- 				<input id="input_5" type="text" name="Minder">
+ 				<input id="input_5" type="text" name="Slechte">
 
 			<p class="vragen" id="vraag_6">Wat is je slechte persoonlijke eigenschap?</p> 
 
